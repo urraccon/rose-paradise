@@ -13,6 +13,8 @@ import LivingImg from './images/retirement-home-living.jpg';
 import BedroomImg from './images/retirement-home-bedroom.jpg';
 import BathroomImg from './images/retirement-home-bathroom.jpg';
 import Services from './components/services/Services';
+import Contact from './components/contact/Contact';
+import { Divider } from '@mui/material';
 
 export const App = () => {
   return (
@@ -20,6 +22,14 @@ export const App = () => {
       <NavBar />
       <Hero />
       <About />
+      <Divider
+        sx={{
+          width: '40%',
+          position: 'absolute',
+          left: '30%',
+          borderColor: '#ff1694',
+        }}
+      />
       <Spaces>
         <Space
           title="gradina"
@@ -30,6 +40,14 @@ export const App = () => {
           asperiores maiores cupiditate accusantium ab corrupti eos!"
           image={GardenImg}
         />
+        <Divider
+          sx={{
+            width: '40%',
+            position: 'absolute',
+            left: '30%',
+            borderColor: '#ff1694',
+          }}
+        />
         <Space
           title="living"
           description="Lorem ipsum dolor, sit amet consectetur adipisicing 
@@ -38,6 +56,14 @@ export const App = () => {
           at rerum odio soluta, voluptatibus corrupti dicta sequi optio 
           blanditiis quasi odit consectetur suscipit ut!"
           image={LivingImg}
+        />
+        <Divider
+          sx={{
+            width: '40%',
+            position: 'absolute',
+            left: '30%',
+            borderColor: '#ff1694',
+          }}
         />
         <Space
           title="dormitor"
@@ -49,6 +75,14 @@ export const App = () => {
           similique optio."
           image={BedroomImg}
         />
+        <Divider
+          sx={{
+            width: '40%',
+            position: 'absolute',
+            left: '30%',
+            borderColor: '#ff1694',
+          }}
+        />
         <Space
           title="baie"
           description="Lorem ipsum dolor, sit amet consectetur adipisicing 
@@ -59,7 +93,24 @@ export const App = () => {
           image={BathroomImg}
         />
       </Spaces>
+      <Divider
+        sx={{
+          width: '40%',
+          position: 'absolute',
+          left: '30%',
+          borderColor: '#ff1694',
+        }}
+      />
       <Services />
+      <Divider
+        sx={{
+          width: '40%',
+          position: 'absolute',
+          left: '30%',
+          borderColor: '#ff1694',
+        }}
+      />
+      <Contact />
     </Main>
   );
 };

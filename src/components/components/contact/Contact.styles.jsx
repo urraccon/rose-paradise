@@ -5,9 +5,5 @@ export const Section = styled.section`
 `;
 
 export const Container = styled.div`
-  padding: 110px 15px 50px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 30px;
+  padding: 110px 15px 60px;
 `;

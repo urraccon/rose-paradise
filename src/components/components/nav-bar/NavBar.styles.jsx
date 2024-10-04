@@ -13,7 +13,7 @@ export const Section = styled.section`
 
 export const Container = styled.div`
   height: inherit;
-  padding: 0 25px;
+  padding: 0 15px;
   display: flex;
   align-items: center;
   justify-content: space-between;

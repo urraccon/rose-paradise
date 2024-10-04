@@ -19,15 +19,15 @@ export const Container = styled.div`
 `;
 
 export const Content = styled.div`
-  padding: 20px;
+  padding: 40px;
   position: absolute;
   top: 55%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 10px;
+  gap: 20px;
   background-color: rgba(254, 197, 229, 0.9);
-  border-radius: 10px;
+  border-radius: 15px;
 `;
 
 export const Title = styled.div``;
