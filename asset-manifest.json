@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/rose-paradise/static/css/main.21f5da09.css",
-    "main.js": "/rose-paradise/static/js/main.1571befe.js",
+    "main.js": "/rose-paradise/static/js/main.77f0d271.js",
     "static/media/retirement-home-bedroom.jpg": "/rose-paradise/static/media/retirement-home-bedroom.15c22a15e1a239bb5f3c.jpg",
     "static/media/retirement-home-bathroom.jpg": "/rose-paradise/static/media/retirement-home-bathroom.54b09a850db52c95bd07.jpg",
     "static/media/retirement-home-living.jpg": "/rose-paradise/static/media/retirement-home-living.65cf502557cb2689cb53.jpg",
@@ -65,10 +65,10 @@
     "static/media/roboto-greek-ext-700-normal.woff": "/rose-paradise/static/media/roboto-greek-ext-700-normal.249853776d22a271b2b5.woff",
     "index.html": "/rose-paradise/index.html",
     "main.21f5da09.css.map": "/rose-paradise/static/css/main.21f5da09.css.map",
-    "main.1571befe.js.map": "/rose-paradise/static/js/main.1571befe.js.map"
+    "main.77f0d271.js.map": "/rose-paradise/static/js/main.77f0d271.js.map"
   },
   "entrypoints": [
     "static/css/main.21f5da09.css",
-    "static/js/main.1571befe.js"
+    "static/js/main.77f0d271.js"
   ]
 }
