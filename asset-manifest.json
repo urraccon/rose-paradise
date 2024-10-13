@@ -1,14 +1,16 @@
 {
   "files": {
     "main.css": "/rose-paradise/static/css/main.b6ca141a.css",
-    "main.js": "/rose-paradise/static/js/main.68c0351b.js",
+    "main.js": "/rose-paradise/static/js/main.a9614a36.js",
     "static/media/garden-3.jpg": "/rose-paradise/static/media/garden-3.f0c3a20e852a205b9d1b.jpg",
     "static/media/garden-2.jpg": "/rose-paradise/static/media/garden-2.4756be956560182e1503.jpg",
     "static/media/dining-room.jpg": "/rose-paradise/static/media/dining-room.fe43b4b739a7ae9b9b5f.jpg",
     "static/media/bathroom-3.jpg": "/rose-paradise/static/media/bathroom-3.392905637ab9c93b5d33.jpg",
     "static/media/kitchen-3.jpg": "/rose-paradise/static/media/kitchen-3.9b0c17b4e18a7d53a8c0.jpg",
+    "static/media/bedroom-2-beds.jpg": "/rose-paradise/static/media/bedroom-2-beds.869c8a81850bd36d8f23.jpg",
     "static/media/bedroom-3-beds-4.jpg": "/rose-paradise/static/media/bedroom-3-beds-4.e3b083b5c84477137907.jpg",
     "static/media/logo-rose-paradise-v2-white-png.png": "/rose-paradise/static/media/logo-rose-paradise-v2-white-png.6f9095be6d916d5de278.png",
+    "static/media/medical-office.jpg": "/rose-paradise/static/media/medical-office.44845df6bfbd20ac7481.jpg",
     "static/media/jost-latin-700-normal.woff": "/rose-paradise/static/media/jost-latin-700-normal.2f4321deec5acd80d0d5.woff",
     "static/media/jost-latin-800-normal.woff": "/rose-paradise/static/media/jost-latin-800-normal.b52c2be50a0ea25ccdb0.woff",
     "static/media/jost-latin-500-normal.woff": "/rose-paradise/static/media/jost-latin-500-normal.9565425ad15e973c3cab.woff",
@@ -65,10 +67,10 @@
     "static/media/jost-cyrillic-400-normal.woff2": "/rose-paradise/static/media/jost-cyrillic-400-normal.28b1f11ed728364dd6ac.woff2",
     "index.html": "/rose-paradise/index.html",
     "main.b6ca141a.css.map": "/rose-paradise/static/css/main.b6ca141a.css.map",
-    "main.68c0351b.js.map": "/rose-paradise/static/js/main.68c0351b.js.map"
+    "main.a9614a36.js.map": "/rose-paradise/static/js/main.a9614a36.js.map"
   },
   "entrypoints": [
     "static/css/main.b6ca141a.css",
-    "static/js/main.68c0351b.js"
+    "static/js/main.a9614a36.js"
   ]
 }
