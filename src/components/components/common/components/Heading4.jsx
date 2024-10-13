@@ -9,10 +9,10 @@ const titleStyle = {
   textAlign: 'center',
 };
 
-const Subtitle1 = ({ children }) => (
+const Heading4 = ({ children }) => (
   <Typography variant="h4" sx={titleStyle}>
     {children}
   </Typography>
 );
 
-export default Subtitle1;
+export default Heading4;

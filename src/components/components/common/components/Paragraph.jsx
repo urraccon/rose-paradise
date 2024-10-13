@@ -1,14 +1,14 @@
 import { Typography } from '@mui/material';
 import PropTypes from 'prop-types';
 
-const paragraphStyle = {
+const textStyle = {
   color: '#666',
-  lineHeight: '25.5px',
+  lineHeight: '27px',
   fontSize: '15px',
 };
 
 const Paragraph = ({ children, style }) => (
-  <Typography variant="body1" sx={paragraphStyle} style={style}>
+  <Typography variant="body2" sx={textStyle} style={style}>
     {children}
   </Typography>
 );

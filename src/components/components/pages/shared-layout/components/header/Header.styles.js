@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const HeaderStyled = styled.header`
   height: 60px;
-  width: inherit;
+  width: 100%;
   position: fixed;
   background-color: #fc77cc;
   z-index: 3;

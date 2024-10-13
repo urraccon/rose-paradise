@@ -4,15 +4,13 @@ import Hero from './components/hero/Hero';
 import Services from './components/services/Services';
 import { Main } from './HomePage.styles';
 
-const HomePage = () => {
-  return (
-    <Main>
-      <Hero />
-      <AboutUs />
-      <Advantages />
-      <Services />
-    </Main>
-  );
-};
+const HomePage = () => (
+  <Main>
+    <Hero />
+    <AboutUs />
+    <Advantages />
+    <Services />
+  </Main>
+);
 
 export default HomePage;

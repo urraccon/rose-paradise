@@ -9,11 +9,10 @@ export const Nav = styled.nav`
   right: 0;
   transition: transform 0.3s ease;
   z-index: 3;
-`;
-
-export const Container = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-top: 75px;
 `;
+
+export const Container = styled.div``;

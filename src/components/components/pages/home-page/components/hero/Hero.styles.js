@@ -14,8 +14,8 @@ export const Section = styled.section`
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
+    width: inherit;
+    height: inherit;
     background-color: rgba(0, 0, 0, 0.3);
     z-index: 1;
   }
@@ -24,13 +24,13 @@ export const Section = styled.section`
 export const Container = styled.div`
   position: absolute;
   z-index: 2;
-  width: 100%;
-  height: 100%;
+  width: inherit;
+  height: inherit;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  gap: 30px;
+  gap: 20px;
   padding: 0 35px;
   box-sizing: border-box;
 `;

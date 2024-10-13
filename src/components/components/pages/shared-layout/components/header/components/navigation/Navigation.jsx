@@ -1,9 +1,9 @@
-import { IconButton, Typography } from '@mui/material';
+import { IconButton } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
-import { useState } from 'react';
 import CloseIcon from '@mui/icons-material/Close';
 import { Container, Nav } from './Navigation.style';
-import { NavLink } from 'react-router-dom';
+import PropTypes from 'prop-types';
+import NavButton from 'components/components/common/components/NavButton';
 
 const iconStyle = {
   fill: 'white',
@@ -12,57 +12,49 @@ const iconStyle = {
   transition: 'height 0.3s ease, width 0.3s ease',
 };
 
-const navStyle = {
-  textDecoration: 'unset',
-  display: 'inline-block',
-};
+const closeBtnStyle = open => ({
+  height: !open && 0,
+  width: !open && 0,
+  padding: !open && 0,
+});
 
-const textStyle = {
-  color: 'white',
-  fontSize: 50,
-  textTransform: 'uppercase',
-  fontWeight: '700',
-};
+const openBtnStyle = open => ({
+  height: open && 0,
+  width: open && 0,
+  padding: open && 0,
+});
 
-const Navigation = () => {
-  const [open, setOpen] = useState(false);
-
-  return (
-    <>
-      <IconButton onClick={() => setOpen(!open)}>
-        <CloseIcon
-          sx={iconStyle}
-          style={{
-            height: !open && 0,
-            width: !open && 0,
-          }}
-        />
-        <MenuIcon
-          sx={iconStyle}
-          style={{
-            height: open && 0,
-            width: open && 0,
-          }}
-        />
+const Navigation = ({ open, handleClose, handleOpen }) => (
+  <>
+    <Container>
+      <IconButton onClick={handleOpen} style={openBtnStyle(open)}>
+        <MenuIcon sx={iconStyle} style={openBtnStyle(open)} />
       </IconButton>
-      <Nav style={{ transform: !open && 'translateX(100vw)' }}>
-        <Container>
-          <NavLink to="services" style={navStyle}>
-            <Typography sx={textStyle}>Servicii</Typography>
-          </NavLink>
-          <NavLink to="prices" style={navStyle}>
-            <Typography sx={textStyle}>Preturi</Typography>
-          </NavLink>
-          <NavLink to="gallery" style={navStyle}>
-            <Typography sx={textStyle}>Galerie</Typography>
-          </NavLink>
-          <NavLink to="contact" style={navStyle}>
-            <Typography sx={textStyle}>Contact</Typography>
-          </NavLink>
-        </Container>
-      </Nav>
-    </>
-  );
+      <IconButton onClick={handleClose} style={closeBtnStyle(open)}>
+        <CloseIcon sx={iconStyle} style={closeBtnStyle(open)} />
+      </IconButton>
+    </Container>
+    <Nav style={{ transform: !open && 'translateX(100vw)' }}>
+      <NavButton to="services" handleClose={handleClose}>
+        Servicii
+      </NavButton>
+      <NavButton to="prices" handleClose={handleClose}>
+        Preturi
+      </NavButton>
+      <NavButton to="gallery" handleClose={handleClose}>
+        Galerie
+      </NavButton>
+      <NavButton to="contact" handleClose={handleClose}>
+        Contact
+      </NavButton>
+    </Nav>
+  </>
+);
+
+Navigation.propTypes = {
+  open: PropTypes.bool,
+  handleClose: PropTypes.func,
+  handleOpen: PropTypes.func,
 };
 
 export default Navigation;

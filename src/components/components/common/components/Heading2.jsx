@@ -8,14 +8,14 @@ const titleStyle = {
   paddingBottom: '10px',
 };
 
-const Title1 = ({ children, style }) => (
+const Heading2 = ({ children, style }) => (
   <Typography variant="h2" sx={titleStyle} style={style}>
     {children}
   </Typography>
 );
 
-Title1.propTypes = {
+Heading2.propTypes = {
   style: PropTypes.object,
 };
 
-export default Title1;
+export default Heading2;

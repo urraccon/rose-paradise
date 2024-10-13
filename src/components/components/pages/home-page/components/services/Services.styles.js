@@ -3,13 +3,10 @@ import styled from 'styled-components';
 export const Section = styled.section`
   background-image: linear-gradient(243deg, #c6c6c6 1%, #fc77cc 100%);
   padding: 35px;
-  padding-bottom: 60px;
-`;
-
-export const Container = styled.div`
+  padding-bottom: 55px;
   display: flex;
   flex-direction: column;
-  gap: 70px;
+  gap: 60px;
 `;
 
 export const List = styled.ul`
