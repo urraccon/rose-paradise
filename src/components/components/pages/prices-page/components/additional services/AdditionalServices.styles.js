@@ -1,16 +1,14 @@
 import styled from 'styled-components';
 
 export const Section = styled.section`
-  padding-bottom: 80px;
+  padding-bottom: 60px;
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 45px;
 `;
-
-export const Text = styled.div``;
 
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 30px;
 `;

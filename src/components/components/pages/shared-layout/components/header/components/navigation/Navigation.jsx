@@ -3,7 +3,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
 import { Container, Nav } from './Navigation.style';
 import PropTypes from 'prop-types';
-import NavButton from 'components/components/common/components/NavButton';
+import NavButton from './components/NavButton';
 
 const iconStyle = {
   fill: 'white',
