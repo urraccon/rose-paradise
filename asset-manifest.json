@@ -1,16 +1,33 @@
 {
   "files": {
     "main.css": "/rose-paradise/static/css/main.b6ca141a.css",
-    "main.js": "/rose-paradise/static/js/main.a9614a36.js",
-    "static/media/garden-3.jpg": "/rose-paradise/static/media/garden-3.f0c3a20e852a205b9d1b.jpg",
-    "static/media/garden-2.jpg": "/rose-paradise/static/media/garden-2.4756be956560182e1503.jpg",
+    "main.js": "/rose-paradise/static/js/main.552ece92.js",
+    "static/media/retirement-home-2.jpg": "/rose-paradise/static/media/retirement-home-2.784fa5c3f437c89d14e5.jpg",
+    "static/media/retirement-home.jpg": "/rose-paradise/static/media/retirement-home.2a91a0b6fd28ea0d2a3a.jpg",
+    "static/media/garden-2.jpg": "/rose-paradise/static/media/garden-2.f0c3a20e852a205b9d1b.jpg",
+    "static/media/garden.jpg": "/rose-paradise/static/media/garden.4756be956560182e1503.jpg",
     "static/media/dining-room.jpg": "/rose-paradise/static/media/dining-room.fe43b4b739a7ae9b9b5f.jpg",
-    "static/media/bathroom-3.jpg": "/rose-paradise/static/media/bathroom-3.392905637ab9c93b5d33.jpg",
+    "static/media/kitchen-2.jpg": "/rose-paradise/static/media/kitchen-2.3b9d453e5ca8d88859a9.jpg",
+    "static/media/stairs.jpg": "/rose-paradise/static/media/stairs.f6560bd8efbd30973f56.jpg",
+    "static/media/hall-2.jpg": "/rose-paradise/static/media/hall-2.eba42b7061b8afc279c0.jpg",
+    "static/media/shared-bathroom.jpg": "/rose-paradise/static/media/shared-bathroom.390615b5e3453b8d385b.jpg",
+    "static/media/bedroom-three-beds.jpg": "/rose-paradise/static/media/bedroom-three-beds.3be9e11d28521008897a.jpg",
+    "static/media/living-room.jpg": "/rose-paradise/static/media/living-room.3019d025293d9d96d971.jpg",
+    "static/media/shared-bathroom-2.jpg": "/rose-paradise/static/media/shared-bathroom-2.392905637ab9c93b5d33.jpg",
+    "static/media/bedroom-two-beds-2.jpg": "/rose-paradise/static/media/bedroom-two-beds-2.22d4c706297f7b1a26ed.jpg",
     "static/media/kitchen-3.jpg": "/rose-paradise/static/media/kitchen-3.9b0c17b4e18a7d53a8c0.jpg",
-    "static/media/bedroom-2-beds.jpg": "/rose-paradise/static/media/bedroom-2-beds.869c8a81850bd36d8f23.jpg",
-    "static/media/bedroom-3-beds-4.jpg": "/rose-paradise/static/media/bedroom-3-beds-4.e3b083b5c84477137907.jpg",
-    "static/media/logo-rose-paradise-v2-white-png.png": "/rose-paradise/static/media/logo-rose-paradise-v2-white-png.6f9095be6d916d5de278.png",
+    "static/media/bedroom-two-beds-3.jpg": "/rose-paradise/static/media/bedroom-two-beds-3.51de6d6c51651bfcf815.jpg",
+    "static/media/hall-3.jpg": "/rose-paradise/static/media/hall-3.43cadb9fd88d4f62002d.jpg",
+    "static/media/bedroom-two-beds.jpg": "/rose-paradise/static/media/bedroom-two-beds.869c8a81850bd36d8f23.jpg",
+    "static/media/bedroom-three-beds-3.jpg": "/rose-paradise/static/media/bedroom-three-beds-3.b2dbb90765e9077cbbf3.jpg",
+    "static/media/bedroom-three-beds-2.jpg": "/rose-paradise/static/media/bedroom-three-beds-2.e3b083b5c84477137907.jpg",
+    "static/media/bedroom-three-beds-4.jpg": "/rose-paradise/static/media/bedroom-three-beds-4.e3b083b5c84477137907.jpg",
+    "static/media/private-bathroom.jpg": "/rose-paradise/static/media/private-bathroom.0883c7dc8683af40789c.jpg",
+    "static/media/logo-rose-paradise-white.png": "/rose-paradise/static/media/logo-rose-paradise-white.6f9095be6d916d5de278.png",
+    "static/media/living-room-2.jpg": "/rose-paradise/static/media/living-room-2.17df5fe32594c6f16887.jpg",
+    "static/media/kitchen.jpg": "/rose-paradise/static/media/kitchen.820c69fbe8bbded033ca.jpg",
     "static/media/medical-office.jpg": "/rose-paradise/static/media/medical-office.44845df6bfbd20ac7481.jpg",
+    "static/media/hall.jpg": "/rose-paradise/static/media/hall.a29b09a68c654693d9c1.jpg",
     "static/media/jost-latin-700-normal.woff": "/rose-paradise/static/media/jost-latin-700-normal.2f4321deec5acd80d0d5.woff",
     "static/media/jost-latin-800-normal.woff": "/rose-paradise/static/media/jost-latin-800-normal.b52c2be50a0ea25ccdb0.woff",
     "static/media/jost-latin-500-normal.woff": "/rose-paradise/static/media/jost-latin-500-normal.9565425ad15e973c3cab.woff",
@@ -67,10 +84,10 @@
     "static/media/jost-cyrillic-400-normal.woff2": "/rose-paradise/static/media/jost-cyrillic-400-normal.28b1f11ed728364dd6ac.woff2",
     "index.html": "/rose-paradise/index.html",
     "main.b6ca141a.css.map": "/rose-paradise/static/css/main.b6ca141a.css.map",
-    "main.a9614a36.js.map": "/rose-paradise/static/js/main.a9614a36.js.map"
+    "main.552ece92.js.map": "/rose-paradise/static/js/main.552ece92.js.map"
   },
   "entrypoints": [
     "static/css/main.b6ca141a.css",
-    "static/js/main.a9614a36.js"
+    "static/js/main.552ece92.js"
   ]
 }
