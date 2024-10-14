@@ -1,11 +1,12 @@
 import { Images, Text, Section } from './AboutUs.style';
-import diningRoom from './images/dining-room.jpg';
-import bedroomThreeBeds from './images/bedroom-3-beds-4.jpg';
+import diningRoom from '../../../../common/images/dining-room.jpg';
+import bedroomThreeBeds from '../../../../common/images/bedroom-three-beds-4.jpg';
 import Heading2 from 'components/components/common/components/Heading2';
 import Paragraph from 'components/components/common/components/Paragraph';
 import Photo from 'components/components/common/components/photo/Photo';
+import PropTypes from 'prop-types';
 
-const AboutUs = () => (
+const AboutUs = ({ onClick }) => (
   <Section>
     <Heading2>Despre noi</Heading2>
     <Text>
@@ -31,10 +32,19 @@ const AboutUs = () => (
       </Paragraph>
     </Text>
     <Images>
-      <Photo src={diningRoom} alt="sufragerie" />
-      <Photo src={bedroomThreeBeds} alt="dormitor cu 3 paturi" />
+      <Photo id={1} src={diningRoom} alt="sala de mese" onClick={onClick} />
+      <Photo
+        id={2}
+        src={bedroomThreeBeds}
+        alt="dormitor cu 3 paturi"
+        onClick={onClick}
+      />
     </Images>
   </Section>
 );
+
+AboutUs.propTypes = {
+  onClick: PropTypes.func,
+};
 
 export default AboutUs;

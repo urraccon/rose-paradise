@@ -13,8 +13,8 @@ const textStyle = {
   fontWeight: '700',
 };
 
-const NavButton = ({ handleClose, to, children }) => (
-  <NavLink to={to} style={navStyle} onClick={handleClose}>
+const NavButton = ({ onClick, to, children }) => (
+  <NavLink to={to} style={navStyle} onClick={onClick}>
     <Typography variant="button" sx={textStyle}>
       {children}
     </Typography>
@@ -23,7 +23,7 @@ const NavButton = ({ handleClose, to, children }) => (
 
 NavButton.propTypes = {
   to: PropTypes.string,
-  handleClose: PropTypes.func,
+  onClick: PropTypes.func,
 };
 
 export default NavButton;

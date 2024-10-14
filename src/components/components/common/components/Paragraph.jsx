@@ -8,7 +8,7 @@ const textStyle = {
 };
 
 const Paragraph = ({ children, style }) => (
-  <Typography variant="body2" sx={textStyle} style={style}>
+  <Typography variant="body1" sx={textStyle} style={style}>
     {children}
   </Typography>
 );

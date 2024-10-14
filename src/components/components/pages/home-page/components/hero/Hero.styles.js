@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import garden from './images/garden-2.jpg';
+import garden from '../../../../common/images/garden-2.jpg';
 
 export const Section = styled.section`
   height: 225px;

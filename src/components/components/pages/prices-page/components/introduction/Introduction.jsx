@@ -2,13 +2,19 @@ import Heading1 from 'components/components/common/components/Heading1';
 import { Container, Section, Text } from './Introduction.styles';
 import Photo from 'components/components/common/components/photo/Photo';
 import Paragraph from 'components/components/common/components/Paragraph';
-import bedroomTwoBeds from './images/bedroom-2-beds.jpg';
+import bedroomTwoBeds from '../../../../common/images/bedroom-two-beds.jpg';
+import PropTypes from 'prop-types';
 
-const Introduction = () => (
+const Introduction = ({ onClick }) => (
   <Section>
     <Heading1>Preturi si beneficii</Heading1>
     <Container>
-      <Photo src={bedroomTwoBeds} alt="dormitor cu 2 paturi" />
+      <Photo
+        id={1}
+        src={bedroomTwoBeds}
+        alt="dormitor cu 2 paturi"
+        onClick={onClick}
+      />
       <Text>
         <Paragraph>
           Prețurile practicate de Reședința Bunicilor sunt în concordanță cu
@@ -27,5 +33,9 @@ const Introduction = () => (
     </Container>
   </Section>
 );
+
+Introduction.propTypes = {
+  onClick: PropTypes.func,
+};
 
 export default Introduction;

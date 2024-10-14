@@ -12,39 +12,39 @@ const iconStyle = {
   transition: 'height 0.3s ease, width 0.3s ease',
 };
 
-const closeBtnStyle = open => ({
-  height: !open && 0,
-  width: !open && 0,
-  padding: !open && 0,
+const closeBtnStyle = toggler => ({
+  height: !toggler && 0,
+  width: !toggler && 0,
+  padding: !toggler && 0,
 });
 
-const openBtnStyle = open => ({
-  height: open && 0,
-  width: open && 0,
-  padding: open && 0,
+const menuBtnStyle = toggler => ({
+  height: toggler && 0,
+  width: toggler && 0,
+  padding: toggler && 0,
 });
 
-const Navigation = ({ open, handleClose, handleOpen }) => (
+const Navigation = ({ toggler, onClick }) => (
   <>
     <Container>
-      <IconButton onClick={handleOpen} style={openBtnStyle(open)}>
-        <MenuIcon sx={iconStyle} style={openBtnStyle(open)} />
+      <IconButton onClick={onClick} style={menuBtnStyle(toggler)}>
+        <MenuIcon sx={iconStyle} style={menuBtnStyle(toggler)} />
       </IconButton>
-      <IconButton onClick={handleClose} style={closeBtnStyle(open)}>
-        <CloseIcon sx={iconStyle} style={closeBtnStyle(open)} />
+      <IconButton onClick={onClick} style={closeBtnStyle(toggler)}>
+        <CloseIcon sx={iconStyle} style={closeBtnStyle(toggler)} />
       </IconButton>
     </Container>
-    <Nav style={{ transform: !open && 'translateX(100vw)' }}>
-      <NavButton to="services" handleClose={handleClose}>
+    <Nav style={{ transform: !toggler && 'translateX(100vw)' }}>
+      <NavButton to="services" onClick={onClick}>
         Servicii
       </NavButton>
-      <NavButton to="prices" handleClose={handleClose}>
+      <NavButton to="prices" onClick={onClick}>
         Preturi
       </NavButton>
-      <NavButton to="gallery" handleClose={handleClose}>
+      <NavButton to="gallery" onClick={onClick}>
         Galerie
       </NavButton>
-      <NavButton to="contact" handleClose={handleClose}>
+      <NavButton to="contact" onClick={onClick}>
         Contact
       </NavButton>
     </Nav>
@@ -52,9 +52,8 @@ const Navigation = ({ open, handleClose, handleOpen }) => (
 );
 
 Navigation.propTypes = {
-  open: PropTypes.bool,
-  handleClose: PropTypes.func,
-  handleOpen: PropTypes.func,
+  toggler: PropTypes.bool,
+  onClick: PropTypes.func,
 };
 
 export default Navigation;

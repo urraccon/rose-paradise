@@ -3,6 +3,7 @@ import SharedLayout from './components/pages/shared-layout/SharedLayout';
 import HomePage from './components/pages/home-page/HomePage';
 import ServicesPage from './components/pages/services-page/ServicesPage';
 import PricesPage from './components/pages/prices-page/PricesPage';
+import GalleryPage from './components/pages/gallery-page/GalleryPage';
 
 export const App = () => {
   return (
@@ -12,8 +13,8 @@ export const App = () => {
           <Route index element={<HomePage />} />
           <Route path="services" element={<ServicesPage />} />
           <Route path="prices" element={<PricesPage />} />
-          {/* <Route path="gallery" element={<GalleryPage />} />
-          <Route path="contact" element={<ContactPage />} /> */}
+          <Route path="gallery" element={<GalleryPage />} />
+          {/* <Route path="contact" element={<ContactPage />} /> */}
         </Route>
       </Routes>
     </BrowserRouter>

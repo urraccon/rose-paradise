@@ -6,7 +6,7 @@ import SanitizerIcon from '@mui/icons-material/Sanitizer';
 import RestaurantIcon from '@mui/icons-material/Restaurant';
 import ContentCutIcon from '@mui/icons-material/ContentCut';
 import VolunteerActivismIcon from '@mui/icons-material/VolunteerActivism';
-import Heading4 from 'components/components/common/components/Heading4';
+import Heading4 from './components/Heading4';
 
 const titleStyle = {
   color: 'white',

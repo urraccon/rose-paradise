@@ -1,16 +1,30 @@
-import { Container, Image, ImageFrame } from './Photo.style';
+import { Typography } from '@mui/material';
+import { Container, Image, ImageContainer, ImageFrame } from './Photo.styles';
 import PropTypes from 'prop-types';
 
-const Photo = ({ src, alt }) => (
+const textStyle = {
+  paddingLeft: '15px',
+  fontSize: '13px',
+};
+
+const Photo = ({ src, alt, onClick, id }) => (
   <Container>
-    <ImageFrame />
-    <Image src={src} alt={alt} />
+    <ImageFrame>
+      <ImageContainer onClick={onClick}>
+        <Image src={src} alt={alt} id={id} />
+      </ImageContainer>
+    </ImageFrame>
+    <Typography variant="overline" sx={textStyle}>
+      {alt}
+    </Typography>
   </Container>
 );
-
-export default Photo;
 
 Photo.propTypes = {
   src: PropTypes.string,
   alt: PropTypes.string,
+  onClick: PropTypes.func,
+  id: PropTypes.number,
 };
+
+export default Photo;

@@ -3,9 +3,10 @@ import { Container, Section } from './AdditionalServices.styles';
 import List from 'components/components/common/components/list/List';
 import Item from 'components/components/common/components/item/Item';
 import Photo from 'components/components/common/components/photo/Photo';
-import bathroom from './images/bathroom-3.jpg';
+import sharedBathroom from '../../../../common/images/shared-bathroom-2.jpg';
+import PropTypes from 'prop-types';
 
-const AdditionalServices = () => (
+const AdditionalServices = ({ onClick }) => (
   <Section>
     <Heading3>Servicii Suplimentare:</Heading3>
     <Container>
@@ -18,9 +19,13 @@ const AdditionalServices = () => (
         <Item>servicii religioase;</Item>
         <Item>alte servicii la solicitarea fiecarui rezident;</Item>
       </List>
-      <Photo src={bathroom} alt="baie" />
+      <Photo id={2} src={sharedBathroom} alt="baie comuna" onClick={onClick} />
     </Container>
   </Section>
 );
+
+AdditionalServices.propTypes = {
+  onClick: PropTypes.func,
+};
 
 export default AdditionalServices;

@@ -2,11 +2,12 @@ import Heading2 from 'components/components/common/components/Heading2';
 import { Container, Section, Text } from './Advatages.styles';
 import Paragraph from 'components/components/common/components/Paragraph';
 import Photo from 'components/components/common/components/photo/Photo';
-import garden from './images/garden-3.jpg';
+import garden from '../../../../common/images/garden-2.jpg';
 import List from 'components/components/common/components/list/List';
 import Item from 'components/components/common/components/item/Item';
+import PropTypes from 'prop-types';
 
-const Advantages = () => (
+const Advantages = ({ onClick }) => (
   <Section>
     <Heading2>Avantajele noastre</Heading2>
     <Text>
@@ -30,8 +31,12 @@ const Advantages = () => (
         </Paragraph>
       </Container>
     </Text>
-    <Photo src={garden} alt="gradina" />
+    <Photo id={3} src={garden} alt="gradina" onClick={onClick} />
   </Section>
 );
+
+Advantages.propType = {
+  onClick: PropTypes.func,
+};
 
 export default Advantages;

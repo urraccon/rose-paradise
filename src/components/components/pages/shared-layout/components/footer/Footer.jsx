@@ -1,5 +1,5 @@
-import Paragraph from 'components/components/common/components/Paragraph';
 import { Container, FooterStyled } from './Footer.styles';
+import { Typography } from '@mui/material';
 
 const textStyle = {
   color: 'white',
@@ -11,23 +11,28 @@ const titleStyle = {
   fontWeight: 600,
   textTransform: 'uppercase',
   lineHeight: '25.5px',
+  fontSize: '15px',
 };
 
 const Footer = () => (
   <FooterStyled>
     <Container>
-      <Paragraph style={titleStyle}>Locatie:</Paragraph>
-      <Paragraph style={textStyle}>
+      <Typography variant="body1" sx={titleStyle}>
+        Locatie:
+      </Typography>
+      <Typography variant="body1" sx={textStyle}>
         Caminul de batrani este localizat in Militari, zona Gorjului, aproape de
         statia de metrou
-      </Paragraph>
+      </Typography>
     </Container>
     <Container>
-      <Paragraph style={titleStyle}>Contact:</Paragraph>
-      <Paragraph style={textStyle}>
+      <Typography variant="body1" sx={titleStyle}>
+        Contact:
+      </Typography>
+      <Typography variant="body1" sx={textStyle}>
         Strada Partiturii nr. 11, Sector 6, Bucuresti Telefoane: 0740.353.333,
         0748.660.000
-      </Paragraph>
+      </Typography>
     </Container>
   </FooterStyled>
 );

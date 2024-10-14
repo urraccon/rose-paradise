@@ -3,9 +3,10 @@ import { Section } from './Facilities.styles';
 import List from 'components/components/common/components/list/List';
 import Item from 'components/components/common/components/item/Item';
 import Photo from 'components/components/common/components/photo/Photo';
-import medicalOffice from './images/medical-office.jpg';
+import medicalOffice from '../../../../common/images/medical-office.jpg';
+import PropTypes from 'prop-types';
 
-const Facilities = () => (
+const Facilities = ({ onClick }) => (
   <Section>
     <Heading3>Facilitati</Heading3>
     <List>
@@ -21,8 +22,12 @@ const Facilities = () => (
       <Item>supraveghere video in spatiile comune;</Item>
       <Item>cladire renovata recent;</Item>
     </List>
-    <Photo src={medicalOffice} alt="cabinet medical" />
+    <Photo id={2} src={medicalOffice} alt="cabinet medical" onClick={onClick} />
   </Section>
 );
+
+Facilities.propTypes = {
+  onClick: PropTypes.func,
+};
 
 export default Facilities;
