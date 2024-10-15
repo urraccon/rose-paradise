@@ -5,9 +5,11 @@ import ServicesPage from './components/pages/services-page/ServicesPage';
 import PricesPage from './components/pages/prices-page/PricesPage';
 import GalleryPage from './components/pages/gallery-page/GalleryPage';
 import ContactPage from './components/pages/contact-page/ContactPage';
+import ResetScroll from './components/common/components/ResetScroll';
 
 export const App = () => (
   <BrowserRouter basename="/rose-paradise">
+    <ResetScroll />
     <Routes>
       <Route path="/" element={<SharedLayout />}>
         <Route index element={<HomePage />} />
