@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/rose-paradise/static/css/main.b6ca141a.css",
-    "main.js": "/rose-paradise/static/js/main.552ece92.js",
+    "main.css": "/rose-paradise/static/css/main.d978e0dc.css",
+    "main.js": "/rose-paradise/static/js/main.28c3ae38.js",
     "static/media/retirement-home-2.jpg": "/rose-paradise/static/media/retirement-home-2.784fa5c3f437c89d14e5.jpg",
     "static/media/retirement-home.jpg": "/rose-paradise/static/media/retirement-home.2a91a0b6fd28ea0d2a3a.jpg",
     "static/media/garden-2.jpg": "/rose-paradise/static/media/garden-2.f0c3a20e852a205b9d1b.jpg",
@@ -23,7 +23,7 @@
     "static/media/bedroom-three-beds-2.jpg": "/rose-paradise/static/media/bedroom-three-beds-2.e3b083b5c84477137907.jpg",
     "static/media/bedroom-three-beds-4.jpg": "/rose-paradise/static/media/bedroom-three-beds-4.e3b083b5c84477137907.jpg",
     "static/media/private-bathroom.jpg": "/rose-paradise/static/media/private-bathroom.0883c7dc8683af40789c.jpg",
-    "static/media/logo-rose-paradise-white.png": "/rose-paradise/static/media/logo-rose-paradise-white.6f9095be6d916d5de278.png",
+    "static/media/white-rose-paradise-logo.png": "/rose-paradise/static/media/white-rose-paradise-logo.6f9095be6d916d5de278.png",
     "static/media/living-room-2.jpg": "/rose-paradise/static/media/living-room-2.17df5fe32594c6f16887.jpg",
     "static/media/kitchen.jpg": "/rose-paradise/static/media/kitchen.820c69fbe8bbded033ca.jpg",
     "static/media/medical-office.jpg": "/rose-paradise/static/media/medical-office.44845df6bfbd20ac7481.jpg",
@@ -83,11 +83,11 @@
     "static/media/jost-cyrillic-100-normal.woff2": "/rose-paradise/static/media/jost-cyrillic-100-normal.ccc56d5d1b498e548034.woff2",
     "static/media/jost-cyrillic-400-normal.woff2": "/rose-paradise/static/media/jost-cyrillic-400-normal.28b1f11ed728364dd6ac.woff2",
     "index.html": "/rose-paradise/index.html",
-    "main.b6ca141a.css.map": "/rose-paradise/static/css/main.b6ca141a.css.map",
-    "main.552ece92.js.map": "/rose-paradise/static/js/main.552ece92.js.map"
+    "main.d978e0dc.css.map": "/rose-paradise/static/css/main.d978e0dc.css.map",
+    "main.28c3ae38.js.map": "/rose-paradise/static/js/main.28c3ae38.js.map"
   },
   "entrypoints": [
-    "static/css/main.b6ca141a.css",
-    "static/js/main.552ece92.js"
+    "static/css/main.d978e0dc.css",
+    "static/js/main.28c3ae38.js"
   ]
 }
