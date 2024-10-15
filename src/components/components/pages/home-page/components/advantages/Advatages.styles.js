@@ -12,5 +12,5 @@ export const Text = styled.div``;
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 15.5px;
 `;

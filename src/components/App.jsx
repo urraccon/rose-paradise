@@ -4,19 +4,18 @@ import HomePage from './components/pages/home-page/HomePage';
 import ServicesPage from './components/pages/services-page/ServicesPage';
 import PricesPage from './components/pages/prices-page/PricesPage';
 import GalleryPage from './components/pages/gallery-page/GalleryPage';
+import ContactPage from './components/pages/contact-page/ContactPage';
 
-export const App = () => {
-  return (
-    <BrowserRouter basename="/rose-paradise">
-      <Routes>
-        <Route path="/" element={<SharedLayout />}>
-          <Route index element={<HomePage />} />
-          <Route path="services" element={<ServicesPage />} />
-          <Route path="prices" element={<PricesPage />} />
-          <Route path="gallery" element={<GalleryPage />} />
-          {/* <Route path="contact" element={<ContactPage />} /> */}
-        </Route>
-      </Routes>
-    </BrowserRouter>
-  );
-};
+export const App = () => (
+  <BrowserRouter basename="/rose-paradise">
+    <Routes>
+      <Route path="/" element={<SharedLayout />}>
+        <Route index element={<HomePage />} />
+        <Route path="services" element={<ServicesPage />} />
+        <Route path="prices" element={<PricesPage />} />
+        <Route path="gallery" element={<GalleryPage />} />
+        <Route path="contact" element={<ContactPage />} />
+      </Route>
+    </Routes>
+  </BrowserRouter>
+);

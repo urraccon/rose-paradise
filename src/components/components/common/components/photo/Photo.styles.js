@@ -4,6 +4,7 @@ export const ImageFrame = styled.div`
   padding: 4px;
   border: 1px solid #cdcdcd;
   border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
 `;
 
 export const ImageContainer = styled.div`

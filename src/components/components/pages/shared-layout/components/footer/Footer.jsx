@@ -3,7 +3,8 @@ import { Typography } from '@mui/material';
 
 const textStyle = {
   color: 'white',
-  lineHeight: '23.8px',
+  lineHeight: '25.5px',
+  fontSize: '15.5px',
 };
 
 const titleStyle = {
@@ -11,7 +12,7 @@ const titleStyle = {
   fontWeight: 600,
   textTransform: 'uppercase',
   lineHeight: '25.5px',
-  fontSize: '15px',
+  fontSize: '15.5px',
 };
 
 const Footer = () => (

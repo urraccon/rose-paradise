@@ -1,6 +1,6 @@
 import { NavLink } from 'react-router-dom';
 import { Image } from './Logo.styles';
-import logo from '../../../../../../common/images/logo-rose-paradise-white.png';
+import logo from '../../../../../../common/images/white-rose-paradise-logo.png';
 import PropTypes from 'prop-types';
 
 const navStyle = {

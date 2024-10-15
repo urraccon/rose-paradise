@@ -1,11 +1,5 @@
-import { Typography } from '@mui/material';
 import { Container, Image, ImageContainer, ImageFrame } from './Photo.styles';
 import PropTypes from 'prop-types';
-
-const textStyle = {
-  paddingLeft: '15px',
-  fontSize: '13px',
-};
 
 const Photo = ({ src, alt, onClick, id }) => (
   <Container>
@@ -14,9 +8,6 @@ const Photo = ({ src, alt, onClick, id }) => (
         <Image src={src} alt={alt} id={id} />
       </ImageContainer>
     </ImageFrame>
-    <Typography variant="overline" sx={textStyle}>
-      {alt}
-    </Typography>
   </Container>
 );
 

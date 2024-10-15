@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   border: 1px solid #bebebe;
-  box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
 `;
 
 export const Title = styled.div`
