@@ -22,8 +22,9 @@ const Footer = () => (
         Locatie:
       </Typography>
       <Typography variant="body1" sx={textStyle}>
-        Caminul de batrani este localizat in Militari, zona Gorjului, aproape de
-        statia de metrou
+        Căminul se află în comuna Glina, aproape de stația „Cămin Cultural”
+        (linia 405), care asigură legătura cu stația de metrou „Nicolae Teclu”
+        (M3).
       </Typography>
     </Container>
     <Container>
@@ -31,8 +32,7 @@ const Footer = () => (
         Contact:
       </Typography>
       <Typography variant="body1" sx={textStyle}>
-        Strada Partiturii nr. 11, Sector 6, Bucuresti Telefoane: 0740.353.333,
-        0748.660.000
+        Intr. Morii nr. 8A, comuna Glina, jud. Ilfov Telefon: 0744995974
       </Typography>
     </Container>
   </FooterStyled>

@@ -9,34 +9,23 @@ const Services = () => (
     <Heading3>Serviciile Caminului de Batrani</Heading3>
     <Container>
       <Paragraph>
-        Resedinta Bunicilor ofera cazare si servicii specificie persoanelor
-        varstnice, cu si fără probleme de sănătate, persoanelor cu boli cronice
-        sau celor care au nevoie de o perioadă de recuperare sau tratament.
+        Serviciile noastre sunt concepute pentru a oferi o îngrijire completă,
+        incluzând atât asistență medicală, cât și sprijin emoțional, pentru a
+        răspunde nevoilor individuale ale rezidenților. Fiecare persoană
+        beneficiază de îngrijire personalizată, adaptată stării sale de sănătate
+        și preferințelor.
       </Paragraph>
       <List>
-        <Item>cazare pe perioada nedeterminata sau pe perioade scurte;</Item>
-        <Item>
-          trei mese pe zi + 2 gustari: mic dejun, gustare, pranz, gustare si
-          cina;
-        </Item>
-        <Item>
-          ingrijire si asistenta medicala asigurata de personal calificat;
-        </Item>
-        <Item>
-          supravegherea rezidentilor pentru urmarea corecta a tratamentelor
-          medicale recomandate de doctori;
-        </Item>
-        <Item>curatenie si intretinere generala a spatiului locuit;</Item>
-        <Item>cosmetica, ingrijire si igiena personala;</Item>
-        <Item>
-          organizare de evenimente si serbari, zile de nastere, sarbatori;
-        </Item>
-        <Item>activitati zilnice sociale prin implicarea personalului;</Item>
-        <Item>
-          monitorizare speciala pentru bolnavii de Alzheimer si Parkinson;
-        </Item>
-        <Item>Terapie ocupationala/ergoterapie, gimnastica;</Item>
-        <Item>Iesiri la teatru, opera, spectacole;</Item>
+        <Item>îngrijire medicală continuă;</Item>
+        <Item>monitorizarea stării de sănătate;</Item>
+        <Item>administrarea tratamentelor prescrise;</Item>
+        <Item>supraveghere constantă 24/7;</Item>
+        <Item>asistență în activitățile zilnice;</Item>
+        <Item>sprijin în mobilitate;</Item>
+        <Item>consiliere psihologică și sprijin emoțional;</Item>
+        <Item>consult medical periodic;</Item>
+        <Item>servicii de igienă personală;</Item>
+        <Item>suport în alimentație și diete personalizate;</Item>
       </List>
     </Container>
   </Section>

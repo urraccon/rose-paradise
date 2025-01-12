@@ -10,13 +10,11 @@ const AdditionalServices = ({ onClick }) => (
   <Section>
     <Heading3>Servicii Suplimentare:</Heading3>
     <List>
-      <Item>monitorizare specializata pentru diverse boli;</Item>
-      <Item>psihoterapie individuala;</Item>
-      <Item>consult medical de specialitate;</Item>
-      <Item>recuperare medicala – la recomandarea specialistului;</Item>
-      <Item>manechiura/pedichiura;</Item>
-      <Item>servicii religioase;</Item>
-      <Item>alte servicii la solicitarea fiecarui rezident;</Item>
+      <Item>transport la medic sau la alte consultații externe;</Item>
+      <Item>controlul tensiunii arteriale și al glicemiei;</Item>
+      <Item>monitorizarea și gestionarea afecțiunilor cronice;</Item>
+      <Item>servicii de fizioterapie și recuperare;</Item>
+      <Item>alte servicii disponibile la cererea rezidentului;</Item>
     </List>
     <Photo id={2} src={sharedBathroom} alt="baie comuna" onClick={onClick} />
   </Section>

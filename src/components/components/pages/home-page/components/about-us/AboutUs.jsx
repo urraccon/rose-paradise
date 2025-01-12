@@ -11,24 +11,29 @@ const AboutUs = ({ onClick }) => (
     <Heading2>Despre noi</Heading2>
     <Text>
       <Paragraph>
-        Căminul de bătrâni Reședința Bunicilor a luat naștere din nevoia de a
-        oferi seniorilor o bătrânete cât mai ușoara si cât mai plăcută.
-        Reședința Bunicilor este un cămin de batrâni privat situat în Sectorul
-        6, cartierul Militari din București, la doar câteva minute de stația de
-        metrou Gorjului. Oferim condiții moderne si personal calificat pentru o
-        viața liniștită și lipsită de griji.
+        Paradisul Trandafirilor Înfloriți este situat în comuna Glina, județul
+        Ilfov, într-un cadru liniștit și accesibil. Locația noastră oferă
+        seniorilor un spațiu unde confortul și armonia se îmbină perfect, creând
+        un refugiu ideal pentru odihnă și socializare. Grădina de trandafiri,
+        emblema noastră, adaugă o notă de frumusețe și serenitate, devenind
+        locul preferat al rezidenților pentru momente de relaxare și
+        contemplare.
       </Paragraph>
       <Paragraph>
-        Reședința Bunicilor nu este doar un cămin de batrâni, este o comunitate
-        în care rezidenții formeaza o adevarata familie. Socializarea este un
-        factor important în viața seniorilor, iar batrânețea este mult mai
-        placuta în momentele în care este împărtășită cu oameni de aceeași
-        vârstă.
+        Echipa noastră de profesioniști este formată din medici, asistenți și
+        terapeuți dedicați, care își pun toată experiența și devotamentul în
+        slujba seniorilor. Fiecare membru al personalului contribuie cu
+        expertiza sa pentru a oferi îngrijire de calitate și suport în fiecare
+        zi. La Paradisul Trandafirilor Înfloriți, sănătatea și bunăstarea
+        rezidenților sunt priorități absolute.
       </Paragraph>
       <Paragraph>
-        Serviciile noastre includ cazare și masă, asigurarea igienei personale,
-        servicii medicale si de supraveghere, asigurarea medicamentelor și
-        exerciții de recuperare.
+        Mai mult decât un cămin, Paradisul Trandafirilor Înfloriți este o
+        adevărată comunitate, unde spiritul de familie este prezent în fiecare
+        moment. Organizăm activități speciale care aduc zâmbete și creează
+        momente de neuitat pentru rezidenți. Aici, fiecare zi este o
+        oportunitate de a construi amintiri valoroase și de a trăi într-un mediu
+        primitor, unde seniorii se simt apreciați și conectați cu cei din jur.
       </Paragraph>
     </Text>
     <Images>

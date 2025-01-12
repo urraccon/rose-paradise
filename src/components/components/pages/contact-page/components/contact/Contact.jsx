@@ -1,5 +1,5 @@
 import { Typography } from '@mui/material';
-import { Container, Link, Section, Span } from './Contact.styles';
+import { Container, Link, Section } from './Contact.styles';
 
 const titleStyle = {
   fontSize: '27px',
@@ -20,7 +20,7 @@ const textStyle = {
 const Contact = () => (
   <Section>
     <Typography variant="h1" sx={titleStyle}>
-      Caminul de Batrani Resedinta Bunicilor
+      Caminul Paradisul Trandafirilor Înfloriți
     </Typography>
     <Container>
       <Typography variant="body1" sx={textStyle}>
@@ -30,17 +30,15 @@ const Contact = () => (
           target="_blank"
           rel="noopener noreferrer"
         >
-          Strada Partiturii nr.11-13, Sector 6, București
+          Intr. Morii nr. 8A, comuna Glina, jud. Ilfov
         </Link>
       </Typography>
       <Typography variant="body1" sx={textStyle}>
-        Telefoane: <Link href="tel:+40740353333">0740.353.333</Link>
-        <Span> / </Span>
-        <Link href="tel:+40748660000">0748.660.000</Link>
+        Telefoane: <Link href="tel:+40744995974">0744.995.974</Link>
       </Typography>
       <Typography variant="body1" sx={textStyle}>
-        <Link href="mailto:contact@resedintabunicilor.ro">
-          contact@resedintabunicilor.ro
+        <Link href="mailto:office@paradisultrandafirilorinfloriti.ro">
+          office@paradisultrandafirilorinfloriti.ro
         </Link>
       </Typography>
     </Container>

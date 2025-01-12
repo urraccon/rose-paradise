@@ -11,11 +11,12 @@ const Introduction = ({ onClick }) => (
     <Container>
       <Photo id={1} src={kitchen} alt="bucatarie" onClick={onClick} />
       <Paragraph>
-        Serviciile noastre includ cazare si masa, asigurarea igienei personale,
-        servicii medicale si de supraveghere, asigurarea medicamentelor si
-        exercitii de recuperare. Personalul specializat din cadrul caminului de
-        batrani Resedinta Bunicilor incearca sa ofere fiecarui rezident o
-        experienta cat mai placuta, indiferent de nevoi sau varsta.
+        Paradisul Trandafirilor Înfloriți oferă servicii complete de îngrijire
+        medicală, inclusiv administrarea tratamentelor și monitorizarea stării
+        de sănătate a rezidenților. Supravegherea video 24/7 permite intervenția
+        rapidă a personalului în caz de nevoie. În plus, sprijinim activitățile
+        zilnice și asigurăm consiliere emoțională pentru a contribui la
+        bunăstarea fiecărui rezident.
       </Paragraph>
     </Container>
   </Section>

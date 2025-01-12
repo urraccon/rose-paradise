@@ -6,6 +6,10 @@ export const HeaderStyled = styled.header`
   position: fixed;
   background-color: #fc77cc;
   z-index: 3;
+
+  @media (min-width: 768px) {
+    height: 92px;
+  }
 `;
 
 export const Container = styled.div`
@@ -14,4 +18,8 @@ export const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
+
+  @media (min-width: 768px) {
+    padding: 0 75px;
+  }
 `;

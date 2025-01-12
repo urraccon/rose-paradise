@@ -10,17 +10,18 @@ const Facilities = ({ onClick }) => (
   <Section>
     <Heading3>Facilitati</Heading3>
     <List>
-      <Item>medic generalist (1 -2 vizite/sapatamana);</Item>
-      <Item>psiholog (2 vizite/ luna);</Item>
-      <Item>medic psihiatru ( 2 vizite/luna);</Item>
-      <Item>medic neurolog ( 1 vizita/luna);</Item>
-      <Item>medic cardiolog ( 1 vizita/luna);</Item>
-      <Item>medic reumatolog (1 vizita/luna);</Item>
-      <Item>personal specializat si monitorizare 24 de ore/zi;</Item>
-      <Item>kinetoterapeut;</Item>
-      <Item>asistent social;</Item>
-      <Item>supraveghere video in spatiile comune;</Item>
-      <Item>cladire renovata recent;</Item>
+      <Item>camere private sau comune confortabile;</Item>
+      <Item>spații pentru socializare și activități recreative;</Item>
+      <Item>bucătărie complet echipată pentru prepararea meselor;</Item>
+      <Item>grădină sau curte pentru relaxare în aer liber;</Item>
+      <Item>acces facil la facilități de igienă (băi adaptate);</Item>
+      <Item>spațiu pentru vizite în intimitate;</Item>
+      <Item>zone de lectură și bibliotecă;</Item>
+      <Item>sistem de alarmă pentru urgențe;</Item>
+      <Item>
+        Wi-Fi și acces la tehnologie pentru comunicare și divertisment;
+      </Item>
+      <Item>locuri de parcare pentru vizitatori;</Item>
     </List>
     <Photo id={2} src={medicalOffice} alt="cabinet medical" onClick={onClick} />
   </Section>

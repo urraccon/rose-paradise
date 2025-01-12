@@ -4,75 +4,19 @@ import { Section } from './Prices.styles';
 const Prices = () => (
   <Section>
     <PriceCard
-      title="loc in camera cu 4 paturi"
-      price={3000}
+      title="incepand de la"
+      price={4500}
       includedServices={[
-        'baie comună, pe hol',
-        'servicii de curățenie a spațiului locativ',
-        '3 mese pe zi plus 2 gustari',
-        'asistenta medicala si supraveghere 24 ore/ zi',
-        'igiena personala',
-        'asistență medicală non-stop',
-        'infirmiere non-stop',
-        'medic generalist (1 -2 vizite/sapatamana)',
-        'psiholog (2 vizite/ lună)',
-        'medic psihiatru (2 vizite/lună)',
-        'medic neurolog (1 vizita/lună)',
-        'medic cardiolog (1 vizita/lună)',
-      ]}
-    />
-    <PriceCard
-      title="loc in camera cu 4 paturi"
-      price={3300}
-      includedServices={[
-        'baie privată',
-        'servicii de curățenie a spațiului locativ',
-        '3 mese pe zi plus 2 gustari',
-        'asistenta medicala si supraveghere 24 ore/ zi',
-        'igiena personala',
-        'asistență medicală non-stop',
-        'infirmiere non-stop',
-        'medic generalist (1 -2 vizite/sapatamana)',
-        'psiholog (2 vizite/ lună)',
-        'medic psihiatru (2 vizite/lună)',
-        'medic neurolog (1 vizita/lună)',
-        'medic cardiolog (1 vizita/lună)',
-      ]}
-    />
-    <PriceCard
-      title="loc in camera cu 3 paturi"
-      price={3800}
-      includedServices={[
-        'baie privată',
-        'servicii de curățenie a spațiului locativ',
-        '3 mese pe zi plus 2 gustari',
-        'asistenta medicala si supraveghere 24 ore/ zi',
-        'igiena personala',
-        'asistență medicală non-stop',
-        'infirmiere non-stop',
-        'medic generalist (1 -2 vizite/sapatamana)',
-        'psiholog (2 vizite/ lună)',
-        'medic psihiatru (2 vizite/lună)',
-        'medic neurolog (1 vizita/lună)',
-        'medic cardiolog (1 vizita/lună)',
-      ]}
-    />
-    <PriceCard
-      title="loc in camera cu 2 paturi"
-      price={4300}
-      includedServices={[
-        'baie privată',
-        'servicii de curățenie a spațiului locativ',
-        '3 mese pe zi plus 2 gustari',
-        'asistenta medicala si supraveghere 24 ore/ zi',
-        'igiena personala',
-        'asistență medicală non-stop',
-        'infirmiere non-stop',
-        'medic generalist (1 -2 vizite/sapatamana)',
-        'psiholog (2 vizite/ lună)',
-        'medic psihiatru (2 vizite/lună)',
-        'medic neurolog (1 vizita/lună)',
-        'medic cardiolog (1 vizita/lună)',
+        'asistență medicală permanentă 24/7',
+        'administrarea tratamentelor și medicamentelor conform prescripției',
+        'evaluarea periodică a stării de sănătate',
+        'asistență pentru persoanele cu dizabilități sau mobilitate redusă',
+        'sprijin în alimentație și monitorizarea regimurilor speciale de dietă',
+        'suport pentru menținerea igienei personale (băi, dușuri, schimbat lenjerie)',
+        'evaluare și monitorizare a stării emoționale și psihologice',
+        'servicii de curățenie și întreținere a spațiilor comune și private',
+        'supraveghere 24/7 pentru siguranța rezidenților',
+        'intervenții de urgență și suport în caz de accidentări',
       ]}
     />
   </Section>

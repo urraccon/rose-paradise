@@ -12,22 +12,25 @@ const Advantages = ({ onClick }) => (
     <Heading2>Avantajele noastre</Heading2>
     <Text>
       <List>
-        <Item>locație ușor accesibilă, cu metroul sau RATB;</Item>
-        <Item>personal calificat și specializat;</Item>
-        <Item>clădire moderna, renovată recent;</Item>
-        <Item>prețuri competitive și atractive;</Item>
+        <Item>echipă de profesioniști experimentați;</Item>
+        <Item>facilități moderne și inovative;</Item>
+        <Item>camere spațioase, dotate complet;</Item>
+        <Item>spații excelente pentru socializare și recreere;</Item>
       </List>
       <Container>
         <Paragraph>
-          Reședința Bunicilor oferă cazare și servicii specifice persoanelor
-          varstnice, cu și fără probleme de sănătate, persoanelor cu boli
-          cronice sau celor care au nevoie de o perioadă de recuperare sau
-          tratament.
+          Paradisul Trandafirilor Înfloriți se bucură de o echipă diversificată
+          de profesioniști – medici, terapeuți și asistenți, fiecare cu o vastă
+          experiență în îngrijirea seniorilor. Dedicarea și profesionalismul
+          echipei noastre garantează îngrijire de excepție, oferind atenție
+          fiecărui detaliu.
         </Paragraph>
         <Paragraph>
-          Oferim servicii de monitorizare pentru bolnavii de Alzheimer sau
-          Parkinson, personalul din Reședința Bunicilor fiind la curent cu
-          riscurile și manifestările acestor boli.
+          Clădirea noastră modernă, proaspăt finalizată, este dotată cu
+          facilități de ultimă generație, concepute pentru a răspunde perfect
+          nevoilor rezidenților și a asigura un confort impecabil. Camerele
+          spațioase și zonele comune sunt gândite pentru a oferi un cadru
+          funcțional și relaxant, ideal pentru odihnă și socializare.
         </Paragraph>
       </Container>
     </Text>

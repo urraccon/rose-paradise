@@ -16,7 +16,7 @@ const Hero = () => (
   <Section>
     <Container>
       <Typography variant="h2" sx={titleStyle}>
-        serviciile caminului de batrani
+        serviciile caminului Paradisul Trandafirilor Înfloriți
       </Typography>
       <ServicesButton>Vezi detalii</ServicesButton>
     </Container>

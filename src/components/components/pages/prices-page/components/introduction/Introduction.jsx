@@ -7,7 +7,7 @@ import PropTypes from 'prop-types';
 
 const Introduction = ({ onClick }) => (
   <Section>
-    <Heading1>Preturi si beneficii</Heading1>
+    <Heading1>Preturi si Beneficii</Heading1>
     <Container>
       <Photo
         id={1}
@@ -17,17 +17,17 @@ const Introduction = ({ onClick }) => (
       />
       <Text>
         <Paragraph>
-          Prețurile practicate de Reședința Bunicilor sunt în concordanță cu
-          nevoile fiecărui rezident. Fiecare oaspete este unic, centrul nostru
-          urmând să asigure servicii personalizate, în funcție de vârsta și
-          starea de sănatate a rezidentului.
+          Tarifele noastre sunt ajustate în funcție de starea de sănătate a
+          rezidentului și de cerințele suplimentare specifice acestuia. Evaluăm
+          cu atenție fiecare caz, pentru a oferi un pachet personalizat care
+          reflectă nevoile individuale. Astfel, prețul final poate varia în
+          funcție de complexitatea îngrijirii necesare.
         </Paragraph>
         <Paragraph>
-          Pachetul de bază include cazarea, curățenia, 3 mese și gustări/zi,
-          asistență și supraveghere 24 de ore, igiena personală și vizitele
-          medicilor specialiști enumerați în fiecare pachet. Serviciile
-          suplimentare sunt discutate cu fiecare pacient în parte, în funcție de
-          nevoile specifice sau de starea de sănătate
+          Pachetul de bază include cazare, trei mese pe zi, administrarea
+          tratamentelor, monitorizarea stării de sănătate, sprijin în
+          activitățile zilnice, igiena personală, spălarea și călcarea rufelor,
+          supraveghere continuă 24/7 și consult medical periodic.
         </Paragraph>
       </Text>
     </Container>

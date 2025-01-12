@@ -2,10 +2,10 @@ import Heading2 from 'components/components/common/components/Heading2';
 import { Icon, Item, List, Section } from './Services.styles';
 import ServicesButton from 'components/components/common/components/ServicesButton';
 import MedicalServicesIcon from '@mui/icons-material/MedicalServices';
-import SanitizerIcon from '@mui/icons-material/Sanitizer';
+import ChairIcon from '@mui/icons-material/Chair';
 import RestaurantIcon from '@mui/icons-material/Restaurant';
-import ContentCutIcon from '@mui/icons-material/ContentCut';
-import VolunteerActivismIcon from '@mui/icons-material/VolunteerActivism';
+import CameraIndoorIcon from '@mui/icons-material/CameraIndoor';
+import WheelchairPickupIcon from '@mui/icons-material/WheelchairPickup';
 import Heading4 from './components/Heading4';
 
 const titleStyle = {
@@ -25,33 +25,33 @@ const Services = () => (
     <List>
       <Item>
         <Icon>
-          <VolunteerActivismIcon style={iconStyle} />
+          <MedicalServicesIcon style={iconStyle} />
         </Icon>
-        <Heading4>Asistenta 24 de ore</Heading4>
+        <Heading4>Îngrijire medicală continuă</Heading4>
       </Item>
       <Item>
         <Icon>
-          <MedicalServicesIcon sx={iconStyle} />
+          <WheelchairPickupIcon sx={iconStyle} />
         </Icon>
-        <Heading4>Servicii medicale</Heading4>
-      </Item>
-      <Item>
-        <Icon>
-          <SanitizerIcon sx={iconStyle} />
-        </Icon>
-        <Heading4>Servicii curatenie</Heading4>
+        <Heading4>Asistență zilnică</Heading4>
       </Item>
       <Item>
         <Icon>
           <RestaurantIcon style={iconStyle} />
         </Icon>
-        <Heading4>3 mese + 2 gustari/zi</Heading4>
+        <Heading4>Mese sănătoase și echilibrate</Heading4>
       </Item>
       <Item>
         <Icon>
-          <ContentCutIcon style={iconStyle} />
+          <ChairIcon style={iconStyle} />
         </Icon>
-        <Heading4>Cosmetica & Igiena</Heading4>
+        <Heading4>Camere confortabile</Heading4>
+      </Item>
+      <Item>
+        <Icon>
+          <CameraIndoorIcon style={iconStyle} />
+        </Icon>
+        <Heading4>Supraveghere constantă</Heading4>
       </Item>
     </List>
     <ServicesButton>Vezi toate serviciile si facilitatile</ServicesButton>
