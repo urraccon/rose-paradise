@@ -3,24 +3,26 @@ import { useNavigate } from 'react-router-dom';
 import { useState } from 'react';
 import NavigateNextIcon from '@mui/icons-material/NavigateNext';
 
-const btnStyle = {
+const btnStyle = arrowVisibility => ({
   color: 'white',
-  border: '2px solid white',
+  border: '2px solid',
   textTransform: 'none',
   fontSize: '20px',
-  fontWeight: 400,
   padding: '6px 20px',
   lineHeight: '34px',
+  borderRadius: '3px',
+  width: 'fit-content',
 
   '&:hover': {
-    border: '2px solid white',
+    border: arrowVisibility ? 'none' : '2px solid',
+    backgroundColor: arrowVisibility && 'rgba(255, 255, 255, 0.2)',
   },
-};
+});
 
 const iconStyle = {
   width: 0,
   height: 0,
-  transition: 'height 0.3s ease, width 0.3s ease',
+  transition: 'height 0.2s ease, width 0.2s ease',
 };
 
 const ServicesButton = ({ children }) => {
@@ -30,12 +32,13 @@ const ServicesButton = ({ children }) => {
   return (
     <Button
       variant="outlined"
-      sx={btnStyle}
+      sx={btnStyle(arrowVisibility)}
       onClick={() => navigate('services')}
       onMouseEnter={() => setArrowVisibility(true)}
       onMouseLeave={() => setArrowVisibility(false)}
       onTouchStart={() => setArrowVisibility(true)}
       onTouchEnd={() => setArrowVisibility(false)}
+      disableRipple
     >
       {children}
       <NavigateNextIcon

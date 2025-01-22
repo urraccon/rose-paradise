@@ -1,9 +1,18 @@
 import Paragraph from 'components/components/common/components/Paragraph';
 import { Section } from './PublicTransport.styles';
 
-const boldTextStyle = { fontWeight: 600, textAlign: 'center' };
+const boldTextStyle = {
+  fontWeight: 700,
+  textAlign: 'center',
+  fontSize: '14px',
+  lineHeight: '23.8px',
+};
 
-const textStyle = { textAlign: 'center' };
+const textStyle = {
+  textAlign: 'center',
+  fontSize: '14px',
+  lineHeight: '23.8px',
+};
 
 const PublicTransport = () => (
   <Section>

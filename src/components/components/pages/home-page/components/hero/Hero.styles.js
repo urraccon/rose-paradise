@@ -8,6 +8,7 @@ export const Section = styled.section`
   background-size: cover;
   background-position: center;
   position: relative;
+  cursor: pointer;
 
   &::before {
     content: '';
@@ -18,6 +19,10 @@ export const Section = styled.section`
     height: inherit;
     background-color: rgba(0, 0, 0, 0.3);
     z-index: 1;
+  }
+
+  @media (min-width: 768px) {
+    height: 321.45px;
   }
 `;
 
@@ -33,4 +38,8 @@ export const Container = styled.div`
   gap: 20px;
   padding: 0 35px;
   box-sizing: border-box;
+
+  @media (min-width: 768px) {
+    padding: 0 100px;
+  }
 `;

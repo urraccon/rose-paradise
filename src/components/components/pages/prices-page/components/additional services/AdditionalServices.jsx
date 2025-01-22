@@ -5,20 +5,40 @@ import Item from 'components/components/common/components/item/Item';
 import Photo from 'components/components/common/components/photo/Photo';
 import sharedBathroom from '../../../../common/images/shared-bathroom-2.jpg';
 import PropTypes from 'prop-types';
+import { useMediaQuery } from 'react-responsive';
 
-const AdditionalServices = ({ onClick }) => (
-  <Section>
-    <Heading3>Servicii Suplimentare:</Heading3>
-    <List>
-      <Item>transport la medic sau la alte consultații externe;</Item>
-      <Item>controlul tensiunii arteriale și al glicemiei;</Item>
-      <Item>monitorizarea și gestionarea afecțiunilor cronice;</Item>
-      <Item>servicii de fizioterapie și recuperare;</Item>
-      <Item>alte servicii disponibile la cererea rezidentului;</Item>
-    </List>
-    <Photo id={2} src={sharedBathroom} alt="baie comuna" onClick={onClick} />
-  </Section>
-);
+const photoStyle = isLargerScreens => ({
+  height: isLargerScreens && '545.2px',
+  width: isLargerScreens && '600px',
+  padding: isLargerScreens && '25px',
+  border: isLargerScreens && '2px solid #cdcdcd',
+  display: isLargerScreens && 'flex',
+  alignSelf: isLargerScreens && 'center',
+});
+
+const AdditionalServices = ({ onClick }) => {
+  const isLargerScreens = useMediaQuery({ minWidth: 768 });
+
+  return (
+    <Section>
+      <Heading3>Servicii Suplimentare:</Heading3>
+      <List>
+        <Item>transport la medic sau la alte consultații externe;</Item>
+        <Item>controlul tensiunii arteriale și al glicemiei;</Item>
+        <Item>monitorizarea și gestionarea afecțiunilor cronice;</Item>
+        <Item>servicii de fizioterapie și recuperare;</Item>
+        <Item>alte servicii disponibile la cererea rezidentului;</Item>
+      </List>
+      <Photo
+        id={2}
+        src={sharedBathroom}
+        alt="baie comuna"
+        onClick={onClick}
+        style={photoStyle(isLargerScreens)}
+      />
+    </Section>
+  );
+};
 
 AdditionalServices.propTypes = {
   onClick: PropTypes.func,

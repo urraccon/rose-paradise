@@ -1,14 +1,15 @@
 import styled from 'styled-components';
 
 export const ImageFrame = styled.div`
-  padding: 4px;
+  padding: 15px;
   border: 1px solid #cdcdcd;
-  border-radius: 4px;
   box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+  width: 300px;
+  box-sizing: border-box;
 `;
 
 export const ImageContainer = styled.div`
-  height: calc(100vw - 35px * 2);
+  height: 266.8px;
   overflow: hidden;
   display: flex;
   align-items: center;

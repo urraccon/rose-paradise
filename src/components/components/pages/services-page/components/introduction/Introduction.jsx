@@ -4,23 +4,41 @@ import Photo from 'components/components/common/components/photo/Photo';
 import kitchen from '../../../../common/images/kitchen-3.jpg';
 import Paragraph from 'components/components/common/components/Paragraph';
 import PropTypes from 'prop-types';
+import { useMediaQuery } from 'react-responsive';
 
-const Introduction = ({ onClick }) => (
-  <Section>
-    <Heading1>Servicii si Facilitati</Heading1>
-    <Container>
-      <Photo id={1} src={kitchen} alt="bucatarie" onClick={onClick} />
-      <Paragraph>
-        Paradisul Trandafirilor Înfloriți oferă servicii complete de îngrijire
-        medicală, inclusiv administrarea tratamentelor și monitorizarea stării
-        de sănătate a rezidenților. Supravegherea video 24/7 permite intervenția
-        rapidă a personalului în caz de nevoie. În plus, sprijinim activitățile
-        zilnice și asigurăm consiliere emoțională pentru a contribui la
-        bunăstarea fiecărui rezident.
-      </Paragraph>
-    </Container>
-  </Section>
-);
+const photoStyle = isLargerScreens => ({
+  height: isLargerScreens && '545.2px',
+  width: isLargerScreens && '600px',
+  padding: isLargerScreens && '25px',
+  border: isLargerScreens && '2px solid #cdcdcd',
+});
+
+const Introduction = ({ onClick }) => {
+  const isLargerScreens = useMediaQuery({ minWidth: 768 });
+
+  return (
+    <Section>
+      <Heading1>Servicii si Facilitati</Heading1>
+      <Container>
+        <Photo
+          id={1}
+          src={kitchen}
+          alt="bucatarie"
+          onClick={onClick}
+          style={photoStyle(isLargerScreens)}
+        />
+        <Paragraph>
+          Paradisul Trandafirilor Înfloriți oferă servicii complete de îngrijire
+          medicală, inclusiv administrarea tratamentelor și monitorizarea stării
+          de sănătate a rezidenților. Supravegherea video 24/7 permite
+          intervenția rapidă a personalului în caz de nevoie. În plus, sprijinim
+          activitățile zilnice și asigurăm consiliere emoțională pentru a
+          contribui la bunăstarea fiecărui rezident.
+        </Paragraph>
+      </Container>
+    </Section>
+  );
+};
 
 Introduction.propTypes = {
   onClick: PropTypes.func,

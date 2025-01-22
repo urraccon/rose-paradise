@@ -5,4 +5,13 @@ export const Section = styled.section`
   display: flex;
   flex-direction: column;
   gap: 35px;
+  align-items: center;
+
+  @media (min-width: 768px) {
+    padding-bottom: 125px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 45px;
+  }
 `;

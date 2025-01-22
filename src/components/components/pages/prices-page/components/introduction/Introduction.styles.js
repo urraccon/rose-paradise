@@ -11,10 +11,11 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   gap: 60px;
+  align-items: center;
 `;
 
 export const Text = styled.div`
   display: flex;
   flex-direction: column;
-  gap: 15.5px;
+  gap: 15px;
 `;

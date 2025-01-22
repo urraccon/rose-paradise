@@ -3,16 +3,16 @@ import { Typography } from '@mui/material';
 
 const textStyle = {
   color: 'white',
-  lineHeight: '25.5px',
-  fontSize: '15.5px',
+  lineHeight: '23.8px',
+  fontSize: '14px',
 };
 
 const titleStyle = {
   color: 'white',
-  fontWeight: 600,
+  fontWeight: 700,
   textTransform: 'uppercase',
-  lineHeight: '25.5px',
-  fontSize: '15.5px',
+  lineHeight: '23.8px',
+  fontSize: '14px',
 };
 
 const Footer = () => (

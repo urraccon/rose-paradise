@@ -11,9 +11,9 @@ const titleStyle = {
 };
 
 const textStyle = {
-  fontSize: '17px',
+  fontSize: '16px',
   color: '#666',
-  lineHeight: '24px',
+  lineHeight: '27.2px',
   textAlign: 'center',
 };
 

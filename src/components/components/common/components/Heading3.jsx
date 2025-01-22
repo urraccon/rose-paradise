@@ -1,16 +1,21 @@
 import { Typography } from '@mui/material';
+import { useMediaQuery } from 'react-responsive';
 
-const titleStyle = {
-  fontSize: '16px',
+const titleStyle = isLargerScreens => ({
+  fontSize: isLargerScreens ? '20px' : '16px',
   fontWeight: 700,
-  lineHeight: '19.2px',
+  lineHeight: isLargerScreens ? '24px' : '19.2px',
   paddingBottom: '10px',
-};
+});
 
-const Heading3 = ({ children }) => (
-  <Typography variant="h3" sx={titleStyle}>
-    {children}
-  </Typography>
-);
+const Heading3 = ({ children }) => {
+  const isLargerScreens = useMediaQuery({ minWidth: 768 });
+
+  return (
+    <Typography variant="h3" sx={titleStyle(isLargerScreens)}>
+      {children}
+    </Typography>
+  );
+};
 
 export default Heading3;

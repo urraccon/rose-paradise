@@ -4,11 +4,10 @@ import { useNavigate } from 'react-router-dom';
 
 const textStyle = {
   fontSize: '18px',
-  lineHeight: '24px',
+  lineHeight: '23.8px',
   color: 'white',
   textTransform: 'uppercase',
   textAlign: 'center',
-  paddingTop: '10px',
 };
 
 const btnStyle = {

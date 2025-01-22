@@ -3,8 +3,8 @@ import PropTypes from 'prop-types';
 
 const textStyle = {
   color: '#666',
-  lineHeight: '25.5px',
-  fontSize: '15.5px',
+  lineHeight: '27px',
+  fontSize: '15px',
 };
 
 const Paragraph = ({ children, style }) => (

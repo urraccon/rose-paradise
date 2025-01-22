@@ -13,10 +13,10 @@ export const Container = styled.div`
 export const Link = styled.a`
   text-decoration: none;
   color: #fc77cc;
-  font-weight: 600;
+  font-weight: 700;
 `;
 
 export const Span = styled.span`
   color: #fc77cc;
-  font-weight: 600;
+  font-weight: 700;
 `;
