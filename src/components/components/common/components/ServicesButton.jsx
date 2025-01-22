@@ -12,10 +12,12 @@ const btnStyle = arrowVisibility => ({
   lineHeight: '34px',
   borderRadius: '3px',
   width: 'fit-content',
+  transition: 'all 0.3s ease',
 
   '&:hover': {
-    border: arrowVisibility ? 'none' : '2px solid',
+    border: arrowVisibility ? '2px solid transparent' : '2px solid',
     backgroundColor: arrowVisibility && 'rgba(255, 255, 255, 0.2)',
+    borderRadius: arrowVisibility && 0,
   },
 });
 

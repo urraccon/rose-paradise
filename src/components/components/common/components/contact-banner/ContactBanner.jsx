@@ -13,14 +13,17 @@ const textStyle = {
 const btnStyle = {
   fontSize: '18px',
   color: 'white',
-  border: '2px solid white',
+  border: '2px solid',
   textTransform: 'none',
   fontWeight: 400,
   padding: '6px 20px',
   lineHeight: '30.6px',
 
   '&:hover': {
-    border: '2px solid white',
+    border: '2px solid transparent',
+    borderRadius: 0,
+    transition: 'all 0.3s ease',
+    backgroundColor: 'rgba(0, 0, 0, .05)',
   },
 };
 
@@ -36,6 +39,7 @@ const ContactBanner = () => {
         variant="outlined"
         sx={btnStyle}
         onClick={() => navigate('/contact')}
+        disableRipple
       >
         Vezi pagina de contact
       </Button>
