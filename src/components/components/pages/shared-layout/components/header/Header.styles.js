@@ -10,16 +10,17 @@ export const HeaderStyled = styled.header`
   @media (min-width: 768px) {
     height: 92px;
   }
+
+  @media (min-width: 1280px) {
+    height: 101px;
+  }
 `;
 
 export const Container = styled.div`
   height: inherit;
-  padding: 0 35px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-
-  @media (min-width: 768px) {
-    padding: 0 75px;
-  }
+  width: 80%;
+  margin: auto;
 `;

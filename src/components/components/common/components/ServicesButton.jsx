@@ -12,7 +12,7 @@ const btnStyle = arrowVisibility => ({
   lineHeight: '34px',
   borderRadius: '3px',
   width: 'fit-content',
-  transition: 'all 0.3s ease',
+  transition: 'all 0.2s',
 
   '&:hover': {
     border: arrowVisibility ? '2px solid transparent' : '2px solid',
@@ -27,7 +27,7 @@ const iconStyle = {
   transition: 'height 0.2s ease, width 0.2s ease',
 };
 
-const ServicesButton = ({ children }) => {
+const ServicesButton = ({ children, style }) => {
   const navigate = useNavigate();
   const [arrowVisibility, setArrowVisibility] = useState(false);
 

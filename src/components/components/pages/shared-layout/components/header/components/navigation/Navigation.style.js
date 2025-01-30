@@ -18,6 +18,10 @@ export const Nav = styled.nav`
   @media (max-height: 534px) {
     overflow: auto;
   }
+
+  @media (min-width: 1280px) {
+    all: unset;
+  }
 `;
 
 export const Icon = styled.div``;
@@ -35,5 +39,9 @@ export const Container = styled.div`
 
   @media (max-height: 534px) {
     justify-content: unset;
+  }
+
+  @media (min-width: 1280px) {
+    all: unset;
   }
 `;

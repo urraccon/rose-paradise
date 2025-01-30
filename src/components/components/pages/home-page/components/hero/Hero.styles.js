@@ -3,7 +3,7 @@ import garden from '../../../../common/images/garden.jpg';
 
 export const Section = styled.section`
   height: 225px;
-  width: 100vw;
+  width: 100%;
   background-image: url(${garden});
   background-size: cover;
   background-position: center;
@@ -22,7 +22,10 @@ export const Section = styled.section`
   }
 
   @media (min-width: 768px) {
-    height: 321.45px;
+    height: 321px;
+  }
+  @media (min-width: 1280px) {
+    height: 526px;
   }
 `;
 
@@ -31,15 +34,15 @@ export const Container = styled.div`
   z-index: 2;
   width: inherit;
   height: inherit;
+`;
+
+export const Content = styled.div`
+  height: inherit;
+  width: 80%;
+  margin: auto;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   gap: 20px;
-  padding: 0 35px;
-  box-sizing: border-box;
-
-  @media (min-width: 768px) {
-    padding: 0 100px;
-  }
 `;

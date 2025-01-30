@@ -1,4 +1,4 @@
-import Gallery from './components/gallery/Gallery';
+import Gallery from './gallery/Gallery';
 import { Main } from './GalleryPage.styles';
 
 const GalleryPage = () => (

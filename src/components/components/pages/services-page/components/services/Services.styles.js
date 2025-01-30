@@ -5,6 +5,10 @@ export const Section = styled.section`
   display: flex;
   flex-direction: column;
   gap: 30px;
+
+  @media (min-width: 1280px) {
+    padding-bottom: unset;
+  }
 `;
 
 export const Container = styled.div``;

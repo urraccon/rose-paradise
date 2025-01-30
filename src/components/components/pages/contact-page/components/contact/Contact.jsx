@@ -13,8 +13,9 @@ const titleStyle = {
 const textStyle = {
   fontSize: '16px',
   color: '#666',
-  lineHeight: '27.2px',
+  lineHeight: '23.8px',
   textAlign: 'center',
+  wordBreak: 'break-word',
 };
 
 const Contact = () => (

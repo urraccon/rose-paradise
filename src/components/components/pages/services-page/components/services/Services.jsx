@@ -2,7 +2,7 @@ import Paragraph from 'components/components/common/components/Paragraph';
 import Heading3 from 'components/components/common/components/Heading3';
 import { Section, Container } from './Services.styles';
 import List from 'components/components/common/components/list/List';
-import Item from 'components/components/common/components/item/Item';
+import Item from 'components/components/common/components/list/item/Item';
 
 const Services = () => (
   <Section>

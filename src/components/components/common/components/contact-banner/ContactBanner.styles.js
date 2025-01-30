@@ -9,4 +9,10 @@ export const Container = styled.div`
   justify-content: center;
   gap: 35px;
   padding: 20px 0 10px;
+
+  @media (min-width: 1280px) {
+    flex-direction: row;
+    padding: unset;
+    gap: 170px;
+  }
 `;

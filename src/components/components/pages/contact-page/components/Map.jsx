@@ -19,9 +19,10 @@ const location = {
   lng: 26.24723,
 };
 
-const mapStyle = isLargerScreens => ({
-  height: isLargerScreens ? '400px' : '300px',
-  width: isLargerScreens ? '600px' : '300px',
+const mapStyle = (isLargerScreens, isDesktop) => ({
+  height: isLargerScreens ? 400 : 300,
+  width: '100%',
+  maxWidth: isDesktop ? 1000 : isLargerScreens ? 600 : 300,
   border: '1px solid #cdcdcd',
   zIndex: 0,
   boxShadow:
@@ -30,9 +31,14 @@ const mapStyle = isLargerScreens => ({
 
 const Map = () => {
   const isLargerScreens = useMediaQuery({ minWidth: 768 });
+  const isDesktop = useMediaQuery({ minWidth: 1280 });
 
   return (
-    <MapContainer center={location} zoom={13} style={mapStyle(isLargerScreens)}>
+    <MapContainer
+      center={location}
+      zoom={13}
+      style={mapStyle(isLargerScreens, isDesktop)}
+    >
       <TileLayer
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'

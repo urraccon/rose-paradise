@@ -5,12 +5,27 @@ export const Section = styled.section`
   display: flex;
   flex-direction: column;
   gap: 30px;
+
+  @media (min-width: 1280px) {
+    flex-direction: row;
+    gap: 55px;
+  }
 `;
 
-export const Text = styled.div``;
+export const LeftSide = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+`;
 
-export const Container = styled.div`
+export const TextGroup = styled.div``;
+
+export const ParagraphGroup = styled.div`
   display: flex;
   flex-direction: column;
   gap: 15px;
+
+  @media (min-width: 1280px) {
+    gap: 16px;
+  }
 `;

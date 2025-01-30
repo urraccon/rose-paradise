@@ -4,6 +4,7 @@ import CloseIcon from '@mui/icons-material/Close';
 import { Container, Icon, Nav } from './Navigation.style';
 import PropTypes from 'prop-types';
 import NavButton from './components/NavButton';
+import { useMediaQuery } from 'react-responsive';
 
 const iconStyle = {
   fill: 'white',
@@ -24,34 +25,42 @@ const menuBtnStyle = toggler => ({
   padding: toggler && 0,
 });
 
-const Navigation = ({ toggler, onClick }) => (
-  <>
-    <Icon>
-      <IconButton onClick={onClick} style={menuBtnStyle(toggler)}>
-        <MenuIcon sx={iconStyle} style={menuBtnStyle(toggler)} />
-      </IconButton>
-      <IconButton onClick={onClick} style={closeBtnStyle(toggler)}>
-        <CloseIcon sx={iconStyle} style={closeBtnStyle(toggler)} />
-      </IconButton>
-    </Icon>
-    <Nav style={{ transform: !toggler && 'translateX(100vw)' }}>
-      <Container>
-        <NavButton to="services" onClick={onClick}>
-          Servicii
-        </NavButton>
-        <NavButton to="prices" onClick={onClick}>
-          Preturi
-        </NavButton>
-        <NavButton to="gallery" onClick={onClick}>
-          Galerie
-        </NavButton>
-        <NavButton to="contact" onClick={onClick}>
-          Contact
-        </NavButton>
-      </Container>
-    </Nav>
-  </>
-);
+const Navigation = ({ toggler, onClick }) => {
+  const isDesktop = useMediaQuery({ minWidth: 1280 });
+
+  return (
+    <>
+      {!isDesktop && (
+        <Icon>
+          <IconButton onClick={onClick} style={menuBtnStyle(toggler)}>
+            <MenuIcon sx={iconStyle} style={menuBtnStyle(toggler)} />
+          </IconButton>
+          <IconButton onClick={onClick} style={closeBtnStyle(toggler)}>
+            <CloseIcon sx={iconStyle} style={closeBtnStyle(toggler)} />
+          </IconButton>
+        </Icon>
+      )}
+      <Nav
+        style={isDesktop ? {} : { transform: !toggler && 'translateX(100vw)' }}
+      >
+        <Container>
+          <NavButton to="services" onClick={onClick}>
+            Servicii
+          </NavButton>
+          <NavButton to="prices" onClick={onClick}>
+            Preturi
+          </NavButton>
+          <NavButton to="gallery" onClick={onClick}>
+            Galerie
+          </NavButton>
+          <NavButton to="contact" onClick={onClick}>
+            Contact
+          </NavButton>
+        </Container>
+      </Nav>
+    </>
+  );
+};
 
 Navigation.propTypes = {
   toggler: PropTypes.bool,

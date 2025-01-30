@@ -2,7 +2,12 @@ import { Container, Image, ImageContainer, ImageFrame } from './Photo.styles';
 import PropTypes from 'prop-types';
 
 const Photo = ({ src, alt, onClick, id, style }) => (
-  <Container style={{ display: style?.display, alignSelf: style?.alignSelf }}>
+  <Container
+    style={{
+      display: style?.display,
+      alignSelf: style?.alignSelf,
+    }}
+  >
     <ImageFrame style={{ ...style, height: style?.width }}>
       <ImageContainer onClick={onClick} style={{ height: style?.height }}>
         <Image src={src} alt={alt} id={id} />

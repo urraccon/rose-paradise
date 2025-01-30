@@ -5,4 +5,17 @@ export const Section = styled.section`
   display: flex;
   flex-direction: column;
   gap: 30px;
+
+  @media (min-width: 1280px) {
+    padding: 25px 0 105px;
+    flex-direction: unset;
+    gap: 55px;
+    align-items: center;
+  }
+`;
+
+export const LeftSide = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 `;

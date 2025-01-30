@@ -5,6 +5,12 @@ export const Section = styled.section`
   display: flex;
   flex-direction: column;
   gap: 30px;
+
+  @media (min-width: 1280px) {
+    padding: 75px 0 80px;
+    flex-direction: unset;
+    gap: 55px;
+  }
 `;
 
 export const Container = styled.div`
@@ -14,8 +20,21 @@ export const Container = styled.div`
   align-items: center;
 `;
 
-export const Text = styled.div`
+export const TextGroup = styled.div`
   display: flex;
   flex-direction: column;
   gap: 15px;
+`;
+
+export const LeftSide = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+`;
+
+export const RightSide = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  justify-content: center;
 `;

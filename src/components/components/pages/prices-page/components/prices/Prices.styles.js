@@ -6,4 +6,8 @@ export const Section = styled.section`
   flex-direction: column;
   gap: 30px;
   align-items: center;
+
+  @media (min-width: 1280px) {
+    padding-bottom: 35px;
+  }
 `;

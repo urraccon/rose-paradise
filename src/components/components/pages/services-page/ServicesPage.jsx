@@ -7,10 +7,12 @@ import ContactBanner from 'components/components/common/components/contact-banne
 import FsLightbox from 'fslightbox-react';
 import kitchen from '../../common/images/kitchen-3.jpg';
 import medicalOffice from '../../common/images/medical-office.jpg';
+import { useMediaQuery } from 'react-responsive';
 
 const ServicesPage = () => {
   const [toggler, setToggler] = useState(false);
   const [slide, setSlide] = useState(1);
+  const isDesktop = useMediaQuery({ minWidth: 1280 });
 
   const handleClick = evt => {
     setToggler(!toggler);
@@ -20,7 +22,7 @@ const ServicesPage = () => {
   return (
     <Main>
       <Introduction onClick={handleClick} />
-      <Services />
+      {!isDesktop && <Services />}
       <ContactBanner />
       <Facilities onClick={handleClick} />
       <FsLightbox

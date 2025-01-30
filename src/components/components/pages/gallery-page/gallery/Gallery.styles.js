@@ -12,6 +12,10 @@ export const Section = styled.section`
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    row-gap: 45px;
+    column-gap: 25px;
+  }
+
+  @media (min-width: 1280px) {
+    padding: 75px 0;
   }
 `;

@@ -5,11 +5,35 @@ export const Section = styled.section`
   display: flex;
   flex-direction: column;
   gap: 30px;
+
+  @media (min-width: 1280px) {
+    padding: 75px 0 25px;
+    flex-direction: row;
+    gap: 55px;
+  }
 `;
 
-export const Container = styled.div`
+export const Content = styled.div`
   display: flex;
   flex-direction: column;
   gap: 60px;
   align-items: center;
+
+  @media (min-width: 1280px) {
+    flex-direction: row;
+    gap: 55px;
+  }
+`;
+
+export const LeftSide = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+`;
+
+export const RightSide = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding-top: 30px;
 `;

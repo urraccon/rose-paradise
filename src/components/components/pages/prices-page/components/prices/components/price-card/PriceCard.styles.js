@@ -3,8 +3,16 @@ import styled from 'styled-components';
 export const Container = styled.div`
   border: 1px solid #bebebe;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
-  width: 305px;
+  max-width: 305px;
   box-sizing: border-box;
+
+  @media (min-width: 768px) {
+    max-width: 600px;
+  }
+
+  @media (min-width: 1280px) {
+    max-width: 1000px;
+  }
 `;
 
 export const Title = styled.div`
@@ -16,7 +24,7 @@ export const Title = styled.div`
 `;
 
 export const PriceContainer = styled.div`
-  padding: 20px 0 30px;
+  padding: 17px 0 30px;
   display: flex;
   justify-content: center;
   border-bottom: 1px solid #bebebe;
@@ -45,19 +53,33 @@ export const Frequency = styled.span`
 `;
 
 export const List = styled.ul`
-  padding: 30px 30px 80px 45px;
+  padding: 30px 30px 80px 44px;
   display: flex;
   flex-direction: column;
-  gap: 25px;
+  gap: 23px;
   margin: 0;
+
+  @media (min-width: 768px) {
+    flex-direction: unset;
+    flex-wrap: wrap;
+  }
 `;
 
 export const Item = styled.li`
   color: #666;
   font-size: 14px;
   line-height: 22.4px;
+  font-family: Jost;
 
   &::marker {
     color: #fc77cc;
+  }
+
+  @media (min-width: 768px) {
+    flex: 1 1 calc(50% - 23px);
+  }
+
+  @media (min-width: 1280px) {
+    flex: 1 1 calc(33% - 23px);
   }
 `;
